@@ -3,9 +3,9 @@ Ceci est le dépôt de mes projets de WEBG2, un plan langues et un jeu casse-bri
 # Compatibilité : 
 #### L'affichage des projets est prévu sous les navigateur compatibles HTML-5.
 
-![Exemple d'affichage sous Firefox](/Screens/AffichageSousFirefox.png)
-![Exemple d'affichage sous Chrome](/Screens/AffichageSousChrome.png)
-![Exemple d'affichage du plan langues sous Chrome](/Screens/AffichagePlanLanguesSousChrome.png)
+![Exemple d'affichage sous Firefox](/Web/Screens/AffichageSousFirefox.png)
+![Exemple d'affichage sous Chrome](/Web/Screens/AffichageSousChrome.png)
+![Exemple d'affichage du plan langues sous Chrome](/Web/Screens/AffichagePlanLanguesSousChrome.png)
 
 # Règles et déroulement du plan Langues: 
 Le but du jeu est simple, choisir la langue et le niveau de difficulté et valider le choix, puis essayer de répondre correctement au plus de questions possibles!

@@ -14,18 +14,18 @@ Il s'agit d'une implémentation du célèbre jeu 2048. [Démo ici](https://duckd
 Le projet a été effectué en deux versions, avec un choix libre au début pour 
 le joueur :
 ## Choix de la version
-![Choix de la version](/Screens/2048FX-Start.png) 
+![Choix de la version](/Java/Screens/2048FX-Start.png) 
 
 ## Version Console 
-![Jeu en version console](/Screens/2048Console.png)
+![Jeu en version console](/Java/Screens/2048Console.png)
 
 ## Version JavaFX
 ###***Déroulement du jeu***
-![Déroulement du jeu](/Screens/2048FX-Gameplay.png)
+![Déroulement du jeu](/Java/Screens/2048FX-Gameplay.png)
 ###***Lancement d'une nouvelle partie***
-![Nouvelle partie](/Screens/2048FX-AfterReplay.png)
+![Nouvelle partie](/Java/Screens/2048FX-AfterReplay.png)
 ###***Bouton aide***
-![Affichage aide](/Screens/2048FX-Hint.png)
+![Affichage aide](/Java/Screens/2048FX-Hint.png)
 
 
 
@@ -61,12 +61,12 @@ Le lancement de l'application doit passer par le plugin javafx, et son "goal" de
 
 Voici quelques screens du déroulement de l'application : 
 
-![Interface initiale](/Screens/BMRv3-InitialScreen.png)
-![Calcul normal - Indice BMR en fonction du poids](/Screens/BMRv3-NormalBmrVsWeight.png)
-![Calcul normal - Calories en fonction du poids](/Screens/BMRv3-NormalCaloriesVsWeight.png)
-![Calcul normal - Indice BMR en fonction de la taille](/Screens/BMRv3-NormalBmrVsHeight.png)
-![Données manquantes](/Screens/BMRv3-MissingData.png)
-![Calcul erroné](/Screens/BMRv3-ErrorRun.png)
+![Interface initiale](/Java/Screens/BMRv3-InitialScreen.png)
+![Calcul normal - Indice BMR en fonction du poids](/Java/Screens/BMRv3-NormalBmrVsWeight.png)
+![Calcul normal - Calories en fonction du poids](/Java/Screens/BMRv3-NormalCaloriesVsWeight.png)
+![Calcul normal - Indice BMR en fonction de la taille](/Java/Screens/BMRv3-NormalBmrVsHeight.png)
+![Données manquantes](/Java/Screens/BMRv3-MissingData.png)
+![Calcul erroné](/Java/Screens/BMRv3-ErrorRun.png)
 
 # AsciiPaint
 
@@ -108,8 +108,8 @@ Le lancement du jeu s'effectue par la commande :
 
 Voici quelques screens du déroulement du jeu : 
 
-![Afffichage d'un cercle](/Screens/AsciiPaint_Circle.png)
-![Affichage de deux ligne croisées](/Screens/AsciiPaint_Cross.png)
+![Afffichage d'un cercle](/Java/Screens/AsciiPaint_Circle.png)
+![Affichage de deux ligne croisées](/Java/Screens/AsciiPaint_Cross.png)
 
 
 # Blackjack
@@ -136,7 +136,7 @@ Certaines simplifications et modifications servant à simplifier le code et de r
 ## Compatibilité du jeu
 
 En égard du caractère simple et obsolète des consoles Windows, l'affichage est très fortement perturbé par le manque de couleurs pour les cartes, ainsi que l'absence d'affichage des symboles Unicode. Il est dès lors très recommandé de lancer le jeu sur un terminal Linux/Unix, ou bien sur un "émulateur" utilisant le sous-système Linux sous Windows couplé avec l'application Terminal for Windows (disponible ici : ), ou bien sous Cygwin et logiciels semblables.
-![Problème d'affichage sous Windows](/Screens/Screen_WindowsGraphicsProblem.png)
+![Problème d'affichage sous Windows](/Java/Screens/Screen_WindowsGraphicsProblem.png)
 
 Le lancement du jeu s'effectue par la commande : 
 <pre><code>java -jar Blackjack.jar</pre></code>
@@ -145,9 +145,9 @@ Le lancement du jeu s'effectue par la commande :
 
 Voici quelques screens du déroulement du jeu : 
 
-![Afffichage du jeu en terminal Ubuntu](/Screens/Screen_WSL.png)
-![Déroulement de la partie](/Screens/Screen2.png)
-![](/Screens/Screen3.png)
+![Afffichage du jeu en terminal Ubuntu](/Java/Screens/Screen_WSL.png)
+![Déroulement de la partie](/Java/Screens/Screen2.png)
+![](/Java/Screens/Screen3.png)
 *Fin de la partie*
 
 
