@@ -1,0 +1,28 @@
+Itération 1
+-----------
+
+Des méthodes ou attributs pour calculer le coté droit ou le centre de la raquette pourraient être utiles. Le code gagnerait en lisibilité et en modularité.
+
+3,5/4
+
+Itération 2
+-------------
+
+Movement:reverseX: Pourquoi passer par une variable intermédiaire ?
+
+Rien à redire en particulier ;)
+
+6/6
+
+Itération 3
+---------------
+
+
+
+Bravo pour les niveaux ;)
+
+Si tu veux faire une méthode spéciale qui regarde les collision avec la balle, redéfinis la dans la classe Ball, c'est le but de l'héritage (plutot qu'en redéfinir une dans sprite accessible à n'importe quel objet).
+
+Pourquoi le constructeur dans Brick est commenté ? 
+
+10/10

@@ -1,0 +1,128 @@
+body {
+    /*Border, margins and paddings*/
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    border-style: groove;
+    border-color: steelblue;
+    /*Grid Settings : 3x1 grid */
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto;
+    grid-template-areas: "header" "content" "footer";
+    /*Stretch on the page*/
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    /*Colors*/
+    background-color: seashell;
+    /*Fonts*/
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+/*Header Styling*/
+
+header {
+    background-color: steelblue;
+    text-align: center;
+}
+
+h1 {
+    /*forwards keeps opacity at specified value in keyframes*/
+    animation: emphasise 1s forwards;
+    text-shadow: 0 2px orangered;
+}
+
+
+/* Zoom-in and back animation for the game title */
+
+@keyframes emphasise {
+    0% {
+        font-size: 200%;
+    }
+    50% {
+        font-size: 400%;
+    }
+    100% {
+        font-size: 300%;
+    }
+}
+
+
+/* Subtitle styling*/
+
+#projectDescription {
+    font-weight: bold;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+
+/*Content Styling*/
+
+#content {
+    grid-area: content;
+    text-align: center;
+}
+
+
+/*Welcome Message */
+
+#contentHeadline {
+    opacity: 0%;
+    font-size: 200%;
+    text-shadow: 0 2px seagreen;
+    /*forwards keeps opacity at specified value in keyframes*/
+    animation: show-up 2s forwards;
+}
+
+
+/*Fade in animation.*/
+
+@keyframes show-up {
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+/*Form animation : show-up*/
+
+form {
+    opacity: 0%;
+    animation: show-up 2s forwards;
+}
+
+
+/*Validate choice button Behaviour*/
+
+#validate {
+    border-radius: 0.3em;
+    border-color: navy;
+    color: navy;
+}
+
+#validate:hover {
+    border-radius: 0.3em;
+    border-color: mintcream;
+    background-color: navy;
+    color: mintcream;
+}
+
+#validate:active {
+    border-radius: 0.3em;
+    background-color: lightseagreen;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+/*Footer Styling*/
+
+footer {
+    text-align: center;
+    padding: 2em;
+    background-color: lightsalmon;
+    grid-area: footer
+}

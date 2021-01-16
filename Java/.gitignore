@@ -1,0 +1,10 @@
+/TD1-CardGame/target/
+/blackJack/target/
+/asciiPaint/target/
+/bmr/target/
+/bmr/.idea
+/2048/target/
+*/.idea
+*.jar
+*.iml
+*/target

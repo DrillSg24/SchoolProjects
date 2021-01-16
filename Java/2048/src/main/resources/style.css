@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'Concert One';
+    src: url("ConcertOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'ClearSans';
+    src: url("ClearSans-Regular.ttf");
+}
+
+.root {
+    -fx-background-color: #e3dad4;
+    -fx-font-family: 'Concert One';
+}
+
+#tileView {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-opacity: .65;
+}
+
+#scoreLabel {
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-font-size: 24pt;
+}
+
+#restartButton {
+    -fx-background-color: #692b2b;
+    -fx-text-fill: #eee;
+    -fx-font-size: 32px;
+    -fx-opacity: .6;
+}
+
+#restartButton:hover {
+    -fx-background-color: #692b2b;
+    -fx-text-fill: #eee;
+    -fx-opacity: .8;
+}
+
+#restartButton:armed {
+    -fx-background-color: #692b2b;
+    -fx-text-fill: #eee;
+    -fx-opacity: 1;
+}
+
+#hintButton {
+    -fx-background-color: #0d6996;
+    -fx-text-fill: #eee;
+    -fx-font-size: 32px;
+    -fx-opacity: .6;
+}
+
+#hintButton:hover {
+    -fx-background-color: #0d6996;
+    -fx-text-fill: #eee;
+    -fx-opacity: .8;
+}
+
+#hintButton:armed {
+    -fx-background-color: #0d6996;
+    -fx-text-fill: #eee;
+    -fx-opacity: 1;
+}
+
+#undoButton {
+    -fx-background-color: #c6660d;
+    -fx-text-fill: #eee;
+    -fx-font-size: 32px;
+    -fx-opacity: .6;
+}
+
+#undoButton:hover {
+    -fx-background-color: #c6660d;
+    -fx-text-fill: #eee;
+    -fx-opacity: .8;
+}
+
+#undoButton:armed {
+    -fx-background-color: #c6660d;
+    -fx-text-fill: #eee;
+    -fx-opacity: 1;
+}
+
+#boardBox {
+    -fx-background-image: url("cat.jpg");
+}
+
+#messageLog {
+    -fx-background-color: #eee;
+    -fx-font-size: 12pt;
+    -fx-font-style: italic;
+}
+
+#messageLabel {
+    -fx-text-fill: #0b3975;
+    -fx-border-color: black;
+    -fx-border-style: none none solid none;
+}
+
+.value0 {
+    -fx-background-color: #efdfd7;
+    -fx-text-fill: black;
+    -fx-border-color: black
+}
+
+.value2 {
+    -fx-background-color: #a98969;
+    -fx-text-fill: black;
+    -fx-border-color: black
+}
+
+.value4 {
+    -fx-background-color: #e3b969;
+    -fx-text-fill: black;
+    -fx-border-color: black
+}
+
+.value8 {
+    -fx-background-color: #d67d44;
+    -fx-text-fill: black;
+    -fx-border-color: black
+}
+
+.value16 {
+    -fx-background-color: #c64b0c;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value32 {
+    -fx-background-color: #be2f2b;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value64 {
+    -fx-background-color: #451a09;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value128 {
+    -fx-background-color: #270c8c;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value256 {
+    -fx-background-color: #9520a2;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value512 {
+    -fx-background-color: #480972;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value1024 {
+    -fx-background-color: #ca0909;
+    -fx-text-fill: #c3bfbf;
+    -fx-border-color: black
+}
+
+.value2048 {
+    -fx-background-color: #de3838;
+    -fx-text-fill: black;
+    -fx-border-color: black
+}
+
+.tiles_GameWon {
+    -fx-background-color: #065322;
+    -fx-text-fill: #c9d6d6;
+    -fx-border-color: black;
+    -fx-opacity: .8;
+}
+
+.tiles_GameLost {
+    -fx-background-color: #880713;
+    -fx-text-fill: #0c0c0b;
+    -fx-border-color: black;
+    -fx-opacity: .8;
+}
+

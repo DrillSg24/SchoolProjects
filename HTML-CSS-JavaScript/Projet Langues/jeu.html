@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Langue - Jeu</title>
+    <!--JQuery-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <!--Local Scripts and data files.-->
+    <script src="res/data.js"></script>
+    <script src="JS/jeu.js"></script>
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="css/jeuStyle.css">
+    <!--BootStrap-->
+
+    <!--Font families-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1>Plan Langue</h1>
+        <h2 id="projectDescription">WEBG2 - Projet 1</h2>
+    </header>
+
+    <!--Content-->
+    <div id="content">
+        <!--Welcome message-->
+        <p id="welcome">Bienvenue ! </p>
+        <p id="welcomeMsg"></p>
+        <!--Question number x-->
+        <p id="questionNb">Question 1 : </p>
+        <!--Question field-->
+        <div id="questionArea"></div>
+        <!--Propositions field-->
+        <div id="suggestionsArea"></div>
+        <!--Answer box-->
+        <div id="answerArea"></div>
+        <!--Correct Answer-->
+        <div id="correctAnswer" class="hidden"></div>
+        <!--Hint-->
+        <p id="hint">Cliquez sur un mot pour le placer dans la réponse(à la suite). Cliquez sur un mot de la réponse pour l'enlever</p>
+        <!--Correct Answers Counter-->
+        <p id="answersCounter"></p>
+        <!--Buttons at the end-->
+        <div id="buttons">
+            <button id="checkButton">Vérifier</button>
+            <button id="reload">Recommencer ce quiz.</button>
+            <button id="nextQuestion" class="hidden">Question suivante</button>
+            <button id="restart" onclick="location.href='index.html';">Nouvelle partie</button>
+        </div>
+
+    </div>
+
+    <!--Page Footer-->
+    <footer>
+        <span id="myName">Ihab TAZI</span>, <span id="myID">55130</span>, B142 Gestion. E-mail :<a href="mailto:55130@etu.he2b.be?subject=Prise de contact">55130@etu.he2b.be</a>
+    </footer>
+</body>
+
+
+</html>

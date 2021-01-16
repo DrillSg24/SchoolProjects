@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Langue - Page d'accueil</title>
+    <!--JQuery-->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <!--Local Scripts and data files.-->
+    <script src="res/data.js"></script>
+    <script src="JS/index.js"></script>
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font families-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <h1>Plan Langue</h1>
+        <h2 id="projectDescription">WEBG2 - Projet 1</h2>
+    </header>
+    <!--Main content (Form)-->
+    <div id="content">
+        <h2 id="contentHeadline" class="slide-in">Apprendre une langue en s'amusant !</h2>
+        <form action="jeu.html">
+            <p>Faites votre choix : </p>
+            <!--The list will be populated by the index.js script-->
+            <select id="languageChoice" name="quizID"></select>
+            <!--Button submit to jeu.html page with "quizID" parameter-->
+            <button type="submit" id="validate">Valider</button>
+        </form>
+    </div>
+    <!--Page Footer-->
+    <footer>
+        <span id="myName">Ihab TAZI</span>, <span id="myID">55130</span>, B142 Gestion. E-mail :<a href="mailto:55130@etu.he2b.be?subject=Prise de contact">55130@etu.he2b.be</a>
+    </footer>
+</body>
+
+</html>
